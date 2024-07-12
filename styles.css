@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    background-color: #f0a630;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.banner {
+    padding: 20px 0;
+    color: #916317;
+    text-align: center;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 25px;
+}
+.hero {
+    height: 970px;
+}
+.worldimg {
+    width: 100%;
+    height: 500px;
+    background-image: url(crowded-places-desktop.jpg);
+    background-size: cover;
+}
+
+.worldSection {
+    width: 650px;
+    height: 200px;
+    background-color: transparent;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 250px;
+}
+
+.worldSection p {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    padding: 5px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: #f0a630;
+    color: white;
+    font-size: 20px;
+    border: 1px solid #f0a630;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+footer {
+    background-color: #f0a630;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-image:radial-gradient(circle, 	#fff8dc, #fffff0, #ffffff);
+}
+
+.newspaper {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.newspaper img {
+    max-width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.newspaper p {
+    padding: 10px 0;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    cursor: pointer;
+}
